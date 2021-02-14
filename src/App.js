@@ -1,22 +1,13 @@
 import './App.css';
-import { Title } from './MyCss';
-
-// const a = {
-//   backgroundColor: 'red',
-// };
-
-// const Title = styled.h1`
-//   font-size: 1.5em;
-//   text-align: center;
-//   color: palevioletred;
-// `;
+import Footer from './components/common/Footer';
+import Header from './components/common/Header';
+import Login from './components/login/Login';
+import LoginPage from './pages/LoginPage';
 
 function App() {
   return (
     <div>
-      <Title>
-        <div>안녕</div>
-      </Title>
+      <LoginPage />
     </div>
   );
 }
